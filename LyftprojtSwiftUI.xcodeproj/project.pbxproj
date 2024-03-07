@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A430A2102B99189800F7AED4 /* LyftprojtSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A20F2B99189800F7AED4 /* LyftprojtSwiftUIApp.swift */; };
-		A430A2122B99189800F7AED4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A2112B99189800F7AED4 /* ContentView.swift */; };
 		A430A2142B99189900F7AED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A430A2132B99189900F7AED4 /* Assets.xcassets */; };
 		A430A2172B99189900F7AED4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A430A2162B99189900F7AED4 /* Preview Assets.xcassets */; };
 		A430A2212B99189900F7AED4 /* LyftprojtSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A2202B99189900F7AED4 /* LyftprojtSwiftUITests.swift */; };
 		A430A22B2B99189900F7AED4 /* LyftprojtSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A22A2B99189900F7AED4 /* LyftprojtSwiftUIUITests.swift */; };
 		A430A22D2B99189900F7AED4 /* LyftprojtSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A22C2B99189900F7AED4 /* LyftprojtSwiftUIUITestsLaunchTests.swift */; };
+		A430A23A2B99195000F7AED4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A2392B99195000F7AED4 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		A430A20C2B99189800F7AED4 /* LyftprojtSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyftprojtSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A430A20F2B99189800F7AED4 /* LyftprojtSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyftprojtSwiftUIApp.swift; sourceTree = "<group>"; };
-		A430A2112B99189800F7AED4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A430A2132B99189900F7AED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A430A2162B99189900F7AED4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A430A21C2B99189900F7AED4 /* LyftprojtSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyftprojtSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		A430A2262B99189900F7AED4 /* LyftprojtSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyftprojtSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A430A22A2B99189900F7AED4 /* LyftprojtSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyftprojtSwiftUIUITests.swift; sourceTree = "<group>"; };
 		A430A22C2B99189900F7AED4 /* LyftprojtSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyftprojtSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A430A2392B99195000F7AED4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				A430A20F2B99189800F7AED4 /* LyftprojtSwiftUIApp.swift */,
-				A430A2112B99189800F7AED4 /* ContentView.swift */,
+				A430A2392B99195000F7AED4 /* MapView.swift */,
 				A430A2132B99189900F7AED4 /* Assets.xcassets */,
 				A430A2152B99189900F7AED4 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A430A2122B99189800F7AED4 /* ContentView.swift in Sources */,
+				A430A23A2B99195000F7AED4 /* MapView.swift in Sources */,
 				A430A2102B99189800F7AED4 /* LyftprojtSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,8 +427,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,8 +454,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
