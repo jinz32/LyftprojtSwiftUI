@@ -20,7 +20,7 @@ struct MapView: View {
                 Map(coordinateRegion: $region, showsUserLocation: true)
                     .edgesIgnoringSafeArea(.all)
                     .navigationBarHidden(true)
-                    .onAppear { } // add stuff here later for on appear
+                    .onAppear { print ("hello")} // add stuff here later for on appear
                 HStack{
                     Image("search")
                         .resizable()
