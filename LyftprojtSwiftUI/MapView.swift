@@ -13,14 +13,18 @@ struct MapView: View {
         center: CLLocationCoordinate2D(latitude: 37.787359, longitude: -122.408227), // Default to San Francisco
         span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
     )
+    
+
     //let mapViewModel = mapViewViewModel
     var body: some View {
         GeometryReader { geometry in
             VStack(alignment: .leading, spacing: 0) {
                 Map(coordinateRegion: $region, showsUserLocation: true)
-                    .edgesIgnoringSafeArea(.all)
-                    .navigationBarHidden(true)
-                    .onAppear { print ("hello")} // add stuff here later for on appear
+                            .onAppear {
+                                // Additional setup or customization can be done here
+                                region.center = CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194)
+                                region.span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+                            } // add stuff here later for on appear
                 HStack{
                     Image("search")
                         .resizable()
