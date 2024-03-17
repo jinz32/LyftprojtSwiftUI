@@ -36,5 +36,132 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92704A06-5FA3-470D-9A04-82F33BABCECE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LyftprojtSwiftUI/ViewModel/MapViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "sayHello()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D91332AE-0E4E-474C-AABF-5DFBE074E0BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LyftprojtSwiftUI/ViewModel/MapViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init(locationManager:region:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D91332AE-0E4E-474C-AABF-5DFBE074E0BF - 81830722b28f25da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LyftprojtSwiftUI.MapViewModel.init(locationManager: Swift.Optional&lt;__C.CLLocationManager&gt;, region: __C.MKCoordinateRegion) -&gt; LyftprojtSwiftUI.MapViewModel"
+                  moduleName = "LyftprojtSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanzheng/Desktop/LyftprojtSwiftUI/LyftprojtSwiftUI/ViewModel/MapViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "960">
+               </Location>
+               <Location
+                  uuid = "D91332AE-0E4E-474C-AABF-5DFBE074E0BF - 81830722b28f25da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LyftprojtSwiftUI.MapViewModel.init(locationManager: Swift.Optional&lt;__C.CLLocationManager&gt;, region: __C.MKCoordinateRegion) -&gt; LyftprojtSwiftUI.MapViewModel"
+                  moduleName = "LyftprojtSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanzheng/Desktop/LyftprojtSwiftUI/LyftprojtSwiftUI/ViewModel/MapViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "520">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E239DD3-2B0B-4F8E-A94F-E4A26CBA9AD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LyftprojtSwiftUI/ViewModel/PriceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "init(pickupLocation:dropoffLocation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E239DD3-2B0B-4F8E-A94F-E4A26CBA9AD3 - aa94a4375f11669"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LyftprojtSwiftUI.PriceViewModel.__allocating_init(locationManager: Swift.Optional&lt;__C.CLLocationManager&gt;, defaultLocation: Swift.Optional&lt;__C.MKCoordinateRegion&gt;) -&gt; LyftprojtSwiftUI.PriceViewModel"
+                  moduleName = "LyftprojtSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanzheng/Desktop/LyftprojtSwiftUI/LyftprojtSwiftUI/ViewModel/PriceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "2E239DD3-2B0B-4F8E-A94F-E4A26CBA9AD3 - 13666c61de3eef72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LyftprojtSwiftUI.PriceViewModel.init(locationManager: Swift.Optional&lt;__C.CLLocationManager&gt;, defaultLocation: Swift.Optional&lt;__C.MKCoordinateRegion&gt;) -&gt; LyftprojtSwiftUI.PriceViewModel"
+                  moduleName = "LyftprojtSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanzheng/Desktop/LyftprojtSwiftUI/LyftprojtSwiftUI/ViewModel/PriceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "2E239DD3-2B0B-4F8E-A94F-E4A26CBA9AD3 - 9be66a3f11e3ccc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LyftprojtSwiftUI.PriceViewModel.init(pickupLocation: LyftprojtSwiftUI.Location, dropoffLocation: LyftprojtSwiftUI.Location) -&gt; LyftprojtSwiftUI.PriceViewModel"
+                  moduleName = "LyftprojtSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathanzheng/Desktop/LyftprojtSwiftUI/LyftprojtSwiftUI/ViewModel/PriceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "600">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

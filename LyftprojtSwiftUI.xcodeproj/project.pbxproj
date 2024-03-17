@@ -10,12 +10,18 @@
 		A430A2102B99189800F7AED4 /* LyftprojtSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A20F2B99189800F7AED4 /* LyftprojtSwiftUIApp.swift */; };
 		A430A2142B99189900F7AED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A430A2132B99189900F7AED4 /* Assets.xcassets */; };
 		A430A2172B99189900F7AED4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A430A2162B99189900F7AED4 /* Preview Assets.xcassets */; };
-		A430A2212B99189900F7AED4 /* LyftprojtSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A2202B99189900F7AED4 /* LyftprojtSwiftUITests.swift */; };
+		A430A2212B99189900F7AED4 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A2202B99189900F7AED4 /* LocationTests.swift */; };
 		A430A22B2B99189900F7AED4 /* LyftprojtSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A22A2B99189900F7AED4 /* LyftprojtSwiftUIUITests.swift */; };
 		A430A22D2B99189900F7AED4 /* LyftprojtSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A22C2B99189900F7AED4 /* LyftprojtSwiftUIUITestsLaunchTests.swift */; };
 		A430A23A2B99195000F7AED4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430A2392B99195000F7AED4 /* MapView.swift */; };
-		A45D5F132B9FA7BE00E6D6C5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D5F122B9FA7BE00E6D6C5 /* ViewModel.swift */; };
+		A45D5F132B9FA7BE00E6D6C5 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D5F122B9FA7BE00E6D6C5 /* MapViewModel.swift */; };
 		A45D5F1D2BA0FE6200E6D6C5 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = A45D5F1C2BA0FE6200E6D6C5 /* locations.json */; };
+		A45D5F1F2BA106C400E6D6C5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D5F1E2BA106C400E6D6C5 /* Location.swift */; };
+		A45D5F232BA1153600E6D6C5 /* Location Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D5F222BA1153600E6D6C5 /* Location Service.swift */; };
+		A45D5F252BA2560400E6D6C5 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D5F242BA2560400E6D6C5 /* PriceView.swift */; };
+		A45D5F272BA2575D00E6D6C5 /* PriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D5F262BA2575D00E6D6C5 /* PriceViewModel.swift */; };
+		A45D5F292BA3CEE300E6D6C5 /* RideQuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D5F282BA3CEE300E6D6C5 /* RideQuoteService.swift */; };
+		A45D5F2B2BA3CF0100E6D6C5 /* RideQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D5F2A2BA3CF0100E6D6C5 /* RideQuote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +47,19 @@
 		A430A2132B99189900F7AED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A430A2162B99189900F7AED4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A430A21C2B99189900F7AED4 /* LyftprojtSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyftprojtSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A430A2202B99189900F7AED4 /* LyftprojtSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyftprojtSwiftUITests.swift; sourceTree = "<group>"; };
+		A430A2202B99189900F7AED4 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		A430A2262B99189900F7AED4 /* LyftprojtSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyftprojtSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A430A22A2B99189900F7AED4 /* LyftprojtSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyftprojtSwiftUIUITests.swift; sourceTree = "<group>"; };
 		A430A22C2B99189900F7AED4 /* LyftprojtSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyftprojtSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A430A2392B99195000F7AED4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		A45D5F122B9FA7BE00E6D6C5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A45D5F122B9FA7BE00E6D6C5 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		A45D5F1C2BA0FE6200E6D6C5 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		A45D5F1E2BA106C400E6D6C5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A45D5F222BA1153600E6D6C5 /* Location Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location Service.swift"; sourceTree = "<group>"; };
+		A45D5F242BA2560400E6D6C5 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
+		A45D5F262BA2575D00E6D6C5 /* PriceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewModel.swift; sourceTree = "<group>"; };
+		A45D5F282BA3CEE300E6D6C5 /* RideQuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideQuoteService.swift; sourceTree = "<group>"; };
+		A45D5F2A2BA3CF0100E6D6C5 /* RideQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideQuote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				A430A20F2B99189800F7AED4 /* LyftprojtSwiftUIApp.swift */,
+				A45D5F212BA1152300E6D6C5 /* Services */,
 				A45D5F1A2BA0FDE800E6D6C5 /* ViewModel */,
 				A45D5F142BA0BAEF00E6D6C5 /* View */,
 				A45D5F1B2BA0FDF800E6D6C5 /* Model */,
@@ -119,7 +132,7 @@
 		A430A21F2B99189900F7AED4 /* LyftprojtSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A430A2202B99189900F7AED4 /* LyftprojtSwiftUITests.swift */,
+				A430A2202B99189900F7AED4 /* LocationTests.swift */,
 			);
 			path = LyftprojtSwiftUITests;
 			sourceTree = "<group>";
@@ -137,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				A430A2392B99195000F7AED4 /* MapView.swift */,
+				A45D5F242BA2560400E6D6C5 /* PriceView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,7 +167,8 @@
 		A45D5F1A2BA0FDE800E6D6C5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				A45D5F122B9FA7BE00E6D6C5 /* ViewModel.swift */,
+				A45D5F122B9FA7BE00E6D6C5 /* MapViewModel.swift */,
+				A45D5F262BA2575D00E6D6C5 /* PriceViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -161,8 +176,19 @@
 		A45D5F1B2BA0FDF800E6D6C5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A45D5F1E2BA106C400E6D6C5 /* Location.swift */,
+				A45D5F2A2BA3CF0100E6D6C5 /* RideQuote.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A45D5F212BA1152300E6D6C5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A45D5F222BA1153600E6D6C5 /* Location Service.swift */,
+				A45D5F282BA3CEE300E6D6C5 /* RideQuoteService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,8 +323,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A430A23A2B99195000F7AED4 /* MapView.swift in Sources */,
+				A45D5F2B2BA3CF0100E6D6C5 /* RideQuote.swift in Sources */,
 				A430A2102B99189800F7AED4 /* LyftprojtSwiftUIApp.swift in Sources */,
-				A45D5F132B9FA7BE00E6D6C5 /* ViewModel.swift in Sources */,
+				A45D5F252BA2560400E6D6C5 /* PriceView.swift in Sources */,
+				A45D5F1F2BA106C400E6D6C5 /* Location.swift in Sources */,
+				A45D5F292BA3CEE300E6D6C5 /* RideQuoteService.swift in Sources */,
+				A45D5F232BA1153600E6D6C5 /* Location Service.swift in Sources */,
+				A45D5F132B9FA7BE00E6D6C5 /* MapViewModel.swift in Sources */,
+				A45D5F272BA2575D00E6D6C5 /* PriceViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A430A2212B99189900F7AED4 /* LyftprojtSwiftUITests.swift in Sources */,
+				A430A2212B99189900F7AED4 /* LocationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +496,6 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LyftprojtSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LyftprojtSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -492,7 +523,6 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LyftprojtSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LyftprojtSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

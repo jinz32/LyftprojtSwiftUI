@@ -11,6 +11,7 @@ import SwiftUI
 struct LyftprojtSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
+            //MapView() // just put the next page here for the view to change to my next screen
             MapView()
         }
     }
